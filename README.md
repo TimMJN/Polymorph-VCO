@@ -18,7 +18,7 @@
 - Through-zero linear FM/PM
 - Hard and soft sync
 
-View the [schematic](schematic+BOM/Polymorph_VCO.pdf) and [bill of materials](https://htmlpreview.github.io/?https://github.com/TimMJN/Polymorph-VCO/blob/main/schematic%2BBOM/Polymorph_VCO_BOM.html) on this repository.
+View the [schematic](schematic+BOM/Polymorph_VCO.pdf) and [bill of materials](https://htmlpreview.github.io/?https://github.com/TimMJN/Polymorph_VCO/blob/main/schematic%2BBOM/Polymorph_VCO_BOM.html) on this repository.
 
 # Notes and Frequently Asked Questions
 ## The build
