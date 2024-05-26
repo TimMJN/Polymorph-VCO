@@ -5,7 +5,7 @@
   - Saw
   - Square/pulse
   - Sine/half-sine
-- Sub oscillator with 3 different waveforms:
+- Suboscillator with 3 different waveforms:
   - Triangle
   - Saw
   - Square
@@ -24,8 +24,18 @@ View the [schematic](schematic+BOM/Polymorph_VCO.pdf) and [bill of materials](ht
 ## The build
 
 ### Calibration
+Calibration requires:
+- a precision voltage source (e.g. a quantiser, or a keyboard controller with CV-out, like the Arturia Keystep)
+- a tuner (app) (or frequency counter, or a really good set of ears)
+- a small screwdriver
 
-## The patch
+Start of in the low audible frequency range. Play notes 1 octave apart (CVs 1V apart), and adjust `Exp scale trim` until the output is 1 octave (factor 2 in frequency) apart. Once you're content with the result for 1 octave, move up to playing notes 2 octaves apart, then 3 and 4. During this process don't touch the tune of octave knobs.
+
+Next, move to the high audible frequency range. Play notes 8 octaves apart (CVs 8V apart), and adjust `HF trim` until the output is 8 octaves (factor 256 in frequency) apart. Again, don't touch the tune or octave knobs. The VCO should now track accurately over (at least) an 8-octave range.
+
+Next, calibrate the octave switch. Play a note and, without changing CV or touching the tune knobs, move the octave switch one position. Adjust `Octave trim` until the output is 1 octave apart. Once you're content with the result for 1 octave, move up to 2 positions, then 3 and 4.
+
+Lastly, the `Subtriangle filter trim` can be adjusted. This filter removes some of the high-frequency artefacts from the subtriangle output. Set the suboscillator waveform to triangle, and listen to its output. Adjust the trimmer until any harsh overtones in the lower frequency range are gone, but the suboscillator is still audible in the higher frequency range.
 
 # License
 All designs in this repository are released under GPL-3.0 licence. Feel free to use and adapt them to your heart's desire. The only ask to refrain from mass-production and commercialisation of PCBs/modules, as I rely on PCB sales for funding new module designs. If you use (parts of) my designs in your own modules, please credit me on your schematics and PCBs to help users find the original creator. I call upon your good conscience to make fair use of my work shared here.
