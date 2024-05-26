@@ -1,18 +1,18 @@
 # Polymorph VCO
  Voltage-controlled oscillator based on SSI2130 VCO-core for Kosmo and Eurorack modular synths. The module design features:
 - Main oscillator with various waveforms:
- - Triangle
- - Saw
- - Square/pulse
- - Sine/half-sine
+  - Triangle
+  - Saw
+  - Square/pulse
+  - Sine/half-sine
 - Sub oscillator with 3 different waveforms:
- - Triangle
- - Saw
- - Square
+  - Triangle
+  - Saw
+  - Square
 - A voltage-controlled mixer with:
- - 5 channels (triangle, saw, pulse/square, (half) sine and sub)
- - an attenuverter of each channel
- - additional individual outputs for each channel
+  - 5 channels (triangle, saw, pulse/square, (half) sine and sub)
+  - an attenuverter of each channel
+  - additional individual outputs for each channel
 - Coarse/fine tune and an octave switch
 - Exponential FM
 - Through-zero linear FM/PM
