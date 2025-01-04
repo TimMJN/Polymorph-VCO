@@ -29,7 +29,7 @@ Calibration requires:
 - a tuner (app) (or frequency counter, or a really good set of ears)
 - a small screwdriver
 
-Start of in the low audible frequency range. Play notes 1 octave apart (CVs 1V apart), and adjust `Exp scale trim` until the output is 1 octave (factor 2 in frequency) apart. Once you're content with the result for 1 octave, move up to playing notes 2 octaves apart, then 3 and 4. During this process don't touch the tune of octave knobs.
+Start of in the low audible frequency range. Play notes 1 octave apart (CVs 1V apart), and adjust `Exp scale trim` until the output is 1 octave (factor 2 in frequency) apart. Once you're content with the result for 1 octave, move up to playing notes 2 octaves apart, then 3 and 4. During this process don't touch the tune or octave knobs.
 
 Next, move to the high audible frequency range. Play notes 8 octaves apart (CVs 8V apart), and adjust `HF trim` until the output is 8 octaves (factor 256 in frequency) apart. Again, don't touch the tune or octave knobs. The VCO should now track accurately over (at least) an 8-octave range.
 
